@@ -1,0 +1,5 @@
+images/
+static/
+venv/
+db.sqlite3
+index.html
