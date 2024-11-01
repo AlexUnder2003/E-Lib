@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+  E-lib
+{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    {% for book in books %}
+    <h1>{{ book.title }}</h1>
+{% endfor %}</div>
+    
+{% endblock %}

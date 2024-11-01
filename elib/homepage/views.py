@@ -1,5 +1,8 @@
 from django.shortcuts import render
+from books.models import Book
 
 
 def homepage(request):
-    return render(request, 'homepage/homepage.html')
+    books_rev = Book.objects.all().order_by('-id')
+    context = {'books': books_rev}
+    return render(request, 'homepage/homepage.html', context)
