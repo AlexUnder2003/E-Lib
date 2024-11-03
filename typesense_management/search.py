@@ -11,11 +11,11 @@ client = typesense.Client({
 })
 
 # Функция для поиска книги по заголовку
-def search_book(title):
+def search_book(title_or_author):
     try:
         response = client.collections['books'].documents.search({
-            'q': title,
-            'query_by': 'title',
+            'q': title_or_author,
+            'query_by': 'title, author',
             'sort_by': 'sorting_id:asc'  # или другой сортировочный параметр
         })
         return response
@@ -24,7 +24,7 @@ def search_book(title):
         return None
 
 # Пример использования функции
-result = search_book('Огни')
+result = search_book('Дост')
 if result:
     for book in result['hits']:
         print(book['document'])

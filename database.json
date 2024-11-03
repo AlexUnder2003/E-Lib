@@ -8,7 +8,7 @@
             "description": "Роман о моральных дилеммах и наказании за преступление.",
             "published_date": "1866-01-01",
             "file": "books/Dostoevskiy/crime_and_punishment.epub",
-            "image": "image/Dostoevskiy"
+            "image": "images/Dostoevskiy/image1.jpg"
         }
     },
     {
@@ -20,7 +20,7 @@
             "description": "История жизни и философии князя Мышкина.",
             "published_date": "1869-01-01",
             "file": "books/Dostoevskiy/the_idiot.epub",
-            "image": "image/Dostoevskiy"
+            "image": "images/Dostoevskiy/image2.jpg"
         }
     },
     {
@@ -32,7 +32,7 @@
             "description": "Роман о борьбе идей, философии и духовности.",
             "published_date": "1880-01-01",
             "file": "books/Dostoevskiy/the_brothers_karamazov.epub",
-            "image": "image/Dostoevskiy"
+            "image": "images/Dostoevskiy/image3.jpg"
         }
     },
     {
@@ -44,7 +44,7 @@
             "description": "Политический и социальный роман о революционных настроениях в России.",
             "published_date": "1872-01-01",
             "file": "books/Dostoevskiy/demons.epub",
-            "image": "image/Dostoevskiy"
+            "image": "images/Dostoevskiy/image4.jpg"
         }
     },
     {
@@ -56,7 +56,7 @@
             "description": "История человека, попавшего в зависимость от азартных игр.",
             "published_date": "1866-01-01",
             "file": "books/Dostoevskiy/the_gambler.epub",
-            "image": "image/Dostoevskiy"
+            "image": "images/Dostoevskiy/image5.jpg"
         }
     },
     {
@@ -68,7 +68,7 @@
             "description": "Роман о молодых людях, стремящихся найти своё место в мире.",
             "published_date": "1875-01-01",
             "file": "books/Dostoevskiy/the_adolescent.epub",
-            "image": "image/Dostoevskiy"
+            "image": "images/Dostoevskiy/image6.jpg"
         }
     },
     {
@@ -80,7 +80,7 @@
             "description": "Роман о борьбе за справедливость и достоинство бедных людей.",
             "published_date": "1861-01-01",
             "file": "books/Dostoevskiy/humiliated_and_insulted.epub",
-            "image": "image/Dostoevskiy"
+            "image": "images/Dostoevskiy/image7.jpg"
         }
     },
     {
@@ -92,7 +92,7 @@
             "description": "Философский роман, исследующий тему человеческой свободы и нравственности.",
             "published_date": "1864-01-01",
             "file": "books/Dostoevskiy/notes_from_underground.epub",
-            "image": "image/Dostoevskiy"
+            "image": "images/Dostoevskiy/image8.jpg"
         }
     },
     {
@@ -104,7 +104,7 @@
             "description": "Романтическая история о мечтателе, который встречает свою любовь.",
             "published_date": "1848-01-01",
             "file": "books/Dostoevskiy/white_nights.epub",
-            "image": "image/Dostoevskiy"
+            "image": "images/Dostoevskiy/image9.jpg"
         }
     },
     {
@@ -116,7 +116,7 @@
             "description": "Философская повесть о человеке, осознавшем смысл жизни через сон.",
             "published_date": "1877-01-01",
             "file": "books/Dostoevskiy/the_dream_of_a_ridiculous_man.epub",
-            "image": "image/Dostoevskiy"
+            "image": "images/Dostoevskiy/image10.jpg"
         }
     },
     {
@@ -128,7 +128,7 @@
             "description": "Антиутопический роман о тоталитарном государстве будущего.",
             "published_date": "1920-01-01",
             "file": "books/Zamyatin/we.epub",
-            "image": "image/Zamyatin"
+            "image": "images/Zamyatin/image11.jpg"
         }
     },
     {
@@ -140,7 +140,7 @@
             "description": "Роман, исследующий англосаксонскую культуру и национальный характер.",
             "published_date": "1918-01-01",
             "file": "books/Zamyatin/the_islanders.epub",
-            "image": "image/Zamyatin"
+            "image": "images/Zamyatin/image12.jpg"
         }
     },
     {
@@ -152,7 +152,7 @@
             "description": "Повесть о сильных человеческих эмоциях, разыгрывающихся на фоне трагических событий.",
             "published_date": "1929-01-01",
             "file": "books/Zamyatin/flood.epub",
-            "image": "image/Zamyatin"
+            "image": "images/Zamyatin/image13.jpg"
         }
     },
     {
@@ -164,7 +164,7 @@
             "description": "Повествование о холодной постапокалиптической Москве.",
             "published_date": "1922-01-01",
             "file": "books/Zamyatin/the_cave.epub",
-            "image": "image/Zamyatin"
+            "image": "images/Zamyatin/image14.jpg"
         }
     },
     {
@@ -176,7 +176,7 @@
             "description": "Повесть о жизни на Севере и испытаниях, которые ждут главного героя.",
             "published_date": "1918-01-01",
             "file": "books/Zamyatin/the_north.epub",
-            "image": "image/Zamyatin"
+            "image": "images/Zamyatin/image15.jpg"
         }
     },
     {
@@ -188,7 +188,7 @@
             "description": "Сатира на политические и социальные события начала XX века.",
             "published_date": "1914-01-01",
             "file": "books/Zamyatin/alatyr.epub",
-            "image": "image/Zamyatin"
+            "image": "images/Zamyatin/image16.jpg"
         }
     },
     {
@@ -200,7 +200,7 @@
             "description": "Повесть о современности и политических коллизиях.",
             "published_date": "1923-01-01",
             "file": "books/Zamyatin/scourge_of_god.epub",
-            "image": "image/Zamyatin"
+            "image": "images/Zamyatin/image17.jpg"
         }
     },
     {
@@ -212,7 +212,7 @@
             "description": "Короткая сатира на бюрократию и безумие войны.",
             "published_date": "1915-01-01",
             "file": "books/Zamyatin/cork.epub",
-            "image": "image/Zamyatin"
+            "image": "images/Zamyatin/image18.jpg"
         }
     },
     {
@@ -224,7 +224,7 @@
             "description": "Рассказ о морском приключении и загадочных явлениях природы.",
             "published_date": "1926-01-01",
             "file": "books/Zamyatin/st_elmos_fire.epub",
-            "image": "image/Zamyatin"
+            "image": "images/Zamyatin/image19.jpg"
         }
     },
     {
@@ -236,7 +236,7 @@
             "description": "Рассказ-сатира на науку и изобретательство в России.",
             "published_date": "1923-01-01",
             "file": "books/Zamyatin/the_flea.epub",
-            "image": "image/Zamyatin"
+            "image": "images/Zamyatin/image20.jpg"
         }
     }
 ]
