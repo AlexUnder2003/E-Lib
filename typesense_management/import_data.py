@@ -1,6 +1,8 @@
-import typesense
 import json
 
+import typesense
+
+# Создаем клиент Typesense
 client = typesense.Client({
     'nodes': [{
         'host': 'localhost',
@@ -8,7 +10,6 @@ client = typesense.Client({
         'protocol': 'http'
     }],
     'api_key': 'xyz',
-    'connection_timeout_seconds': 2
 })
 
 def load_books_from_json(file_path):
@@ -21,10 +22,7 @@ def load_books_from_json(file_path):
             'sorting_id': item['pk'],
             'title': fields['title'],
             'author': fields['author'],
-            'description': fields['description'],
-            'published_date': fields['published_date'],
-            'file': fields['file'],
-            'image': fields['image']
+            # Убираем остальные поля
         }
 
         try:
@@ -32,5 +30,6 @@ def load_books_from_json(file_path):
             print(f"Документ добавлен: {document['title']}")
         except typesense.exceptions.RequestMalformed as e:
             print(f"Ошибка при добавлении документа {document['title']}: {e}")
+
 
 load_books_from_json('database.json')

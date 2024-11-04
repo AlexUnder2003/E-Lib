@@ -22,7 +22,7 @@ def search_book(title_or_author):
         print(f"Ошибка поиска: {e}")
         return None
 
-result = search_book('Дост')
+result = search_book('Бе')
 if result:
     for book in result['hits']:
         print(book['document'])
