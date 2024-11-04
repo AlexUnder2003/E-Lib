@@ -23,6 +23,7 @@ def add_favorite_book(request, book_id):
 
     return redirect('favourites:favourites')
 
+
 def favourites_view(request):
     favorite_books = FavoriteBook.objects.filter(user=request.user).select_related('book')
     latest_book = favorite_books.last()

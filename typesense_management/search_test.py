@@ -1,29 +1,27 @@
 import typesense
 
-# Подключаемся к Typesense
+
 client = typesense.Client({
     'nodes': [{
-        'host': 'localhost',  # или IP-адрес вашего сервера
+        'host': 'localhost',
         'port': '8108',
-        'protocol': 'http'  # или 'https', если используется
+        'protocol': 'http'
     }],
-    'api_key': 'xyz',  # ваш API ключ
+    'api_key': 'xyz',
 })
 
-# Функция для поиска книги по заголовку
 def search_book(title_or_author):
     try:
         response = client.collections['books'].documents.search({
             'q': title_or_author,
             'query_by': 'title, author',
-            'sort_by': 'sorting_id:asc'  # или другой сортировочный параметр
+            'sort_by': 'sorting_id:asc'
         })
         return response
     except Exception as e:
         print(f"Ошибка поиска: {e}")
         return None
 
-# Пример использования функции
 result = search_book('Дост')
 if result:
     for book in result['hits']:

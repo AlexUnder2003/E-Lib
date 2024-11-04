@@ -1,4 +1,5 @@
 from django.urls import path
+
 from .views import search_books, detailed_view
 
 app_name = 'books'
